@@ -5,8 +5,8 @@ def even_odd(arr):
     """Reorder so that even integers appear first.
 
     Solve without increasing storage.
-    input: list of integers
-    output: even integers, then odd integers.
+    input: list of integers, [1, 2, 3, 4, 5, 6]
+    output: even integers, then odd integers, [6, 2, 4, 5, 3, 1]
     """
     next_even, next_odd = 0, len(arr) - 1
     while next_even < next_odd:
